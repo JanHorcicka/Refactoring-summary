@@ -73,6 +73,7 @@ Summary of the book "Refactoring" 2nd edition
          Const manager = employee.department.manager;
     - After:
          Class Employee -> getManager() { return this.department.manager; }
+         
          Const manager = employee.getManager();
     
     
