@@ -6,7 +6,7 @@ Summary of the book "Refactoring" 2nd edition
 - A good set of automated tests is crucial for refactoring. Refactoring should never break a working code. After each small change, run the tests, commit and push the change.
 - Refactoring is not supposed to be done because of clean code or good engineering practice. The point is to make us faster - faster to add features, faster to fix bugs.
 - When you feel the need to comment something, write a function instead. The function contains the code we wanted to comment but it is named after the intention of the code rather than the way it works. This can be done even on a single line of code.
-- Any function that returns a value should not have any observable side effects. If a function return a value, that's all it should do.
+- Any function that returns a value should not have any observable side effects. If a function returns a value, that's all it should do.
 
 ## When to refactor
 - Mysterious name
